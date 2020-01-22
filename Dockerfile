@@ -5,20 +5,22 @@
 # 
 
 # Pull base image.
-FROM tamboraorg/creubuntu:0.2020
+FROM tamboraorg/creubuntu:latest
 MAINTAINER Michael Kahle <michael.kahle@yahoo.de>
 
-ARG BUILD_YEAR=2012
+ARG BUILD_YEAR=2018
 ARG BUILD_MONTH=0
+ARG BUILD_TAG=latest
 
 ENV NGINX_VERSION 1.14.1
 
 LABEL Name="Nginx for CRE" \
+      CRE=$CRE_VERSION \ 
       Year=$BUILD_YEAR \
       Month=$BUILD_MONTH \
       Version=$NGINX_VERSION \
       OS="Ubuntu:$UBUNTU_VERSION" \
-      Build_=$CRE_VERSION 
+      Build_=$BUILD_TAG 
 
 # Install Nginx
 RUN \

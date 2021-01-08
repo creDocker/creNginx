@@ -5,12 +5,12 @@
 # 
 
 # Pull base image.
-FROM tamboraorg/creubuntu:2020.0
+FROM tamboraorg/creubuntu:0.2022
 MAINTAINER Michael Kahle <michael.kahle@yahoo.de>
 
-ARG BUILD_YEAR=2020
+ARG BUILD_YEAR=2022
 ARG BUILD_MONTH=0
-ARG BUILD_TAG=2020.0
+ARG BUILD_TAG=0.2022
 
 ENV NGINX_VERSION 1.18.0
 

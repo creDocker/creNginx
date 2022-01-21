@@ -1,6 +1,0 @@
-sut:
-  image: ${IMAGE_NAME}
-  command: /cre/tests/nginx-test.sh
-  volumes:
-    - ./tests:/cre/tests
-

@@ -4,3 +4,4 @@ creBuild 	 2023.01
   Java 	 openjdk version "11.0.17" 2022-10-18
   Python3 	 Python 3.10.6
  creNginx 	 1.18.0 (Ubuntu)
+  GoAccess - 1.5.5.

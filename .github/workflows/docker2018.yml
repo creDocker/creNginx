@@ -34,12 +34,12 @@ jobs:
         with:
           file: ./Dockerfile18
           push: true
-          tags: tamboraorg/crenginx:check18
+          tags: credocker/crenginx:check18
 
       -
         name: Test
         run: |
-          docker run tamboraorg/crenginx:check18 /cre/nginx-test.sh  
+          docker run credocker/crenginx:check18 /cre/nginx-test.sh  
       -
         name: Build and push
         id: docker_push
@@ -47,5 +47,5 @@ jobs:
         with:
           file: ./Dockerfile18
           push: true
-          tags: tamboraorg/crenginx:2018.0 
+          tags: credocker/crenginx:2018.0 
 

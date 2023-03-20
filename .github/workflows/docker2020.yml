@@ -34,12 +34,12 @@ jobs:
         with:
           file: ./Dockerfile20
           push: true
-          tags: tamboraorg/crenginx:check20 
+          tags: credocker/crenginx:check20 
 
       -
         name: Test
         run: |
-          docker run tamboraorg/crenginx:check20 /cre/nginx-test.sh   
+          docker run credocker/crenginx:check20 /cre/nginx-test.sh   
 
       -
         name: Build and push
@@ -48,6 +48,6 @@ jobs:
         with:
           file: ./Dockerfile20
           push: true
-          tags: tamboraorg/crenginx:2020.0, tamboraorg/crenginx:latest 
+          tags: credocker/crenginx:2020.0, credocker/crenginx:latest 
       
 

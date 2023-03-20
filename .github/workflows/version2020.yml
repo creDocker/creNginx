@@ -15,7 +15,7 @@ jobs:
   versions:
     runs-on: ubuntu-latest
     container:
-      image: tamboraorg/crenginx:2020.0
+      image: credocker/crenginx:2020.0
     steps:
       - uses: actions/checkout@v3
       - name: Set ownership

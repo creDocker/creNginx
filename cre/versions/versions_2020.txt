@@ -1,8 +1,8 @@
-creBuild 	 2024.02
+creBuild 	 2024.03
  creUbuntu 	 20.04.6 LTS
   UbuntuName 	 focal
   OpenSSL 1.1.1f  31 Mar 2020
-  Java 	 openjdk version "11.0.21" 2023-10-17
+  Java 	 openjdk version "11.0.22" 2024-01-16
   Python3 	 Python 3.8.10
    Flask 	 Flask 3.0.2
  creNginx 	 1.18.0 (Ubuntu)

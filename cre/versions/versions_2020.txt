@@ -4,6 +4,6 @@ creBuild 	 2024.04
   OpenSSL 1.1.1f  31 Mar 2020
   Java 	 openjdk version "11.0.22" 2024-01-16
   Python3 	 Python 3.8.10
-   Flask 	 Flask 3.0.2
+   Flask 	 Flask 3.0.3
  creNginx 	 1.18.0 (Ubuntu)
   GoAccess - 1.3.

@@ -14,22 +14,17 @@ on:
 jobs:
   versions:
     runs-on: ubuntu-latest
-    container:
-      image: credocker/crenginx:2016.0
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Set ownership
         run: |
           # this is to fix GIT not liking owner of the checkout dir
           chown -R $(id -u):$(id -g) $PWD
-      - name: cat version.txt
-        run: (cat /cre/versions.txt) 
-      - name: cp version.txt
-#        run: (cp /cre/versions.txt cre/versions/versions_2016.txt) 
-        run: (cut -f2,3 /cre/versions.txt > cre/versions/versions_2016.txt)
+      - name: run docker in docker
+        run: (docker container run --volume ./cre/versions:/cre/versions credocker/crenginx:2016.0 /cre/update-versions.sh 2016) 
       - name: Submit changes       
         uses: EndBug/add-and-commit@v9
         with:
 #          pull: '--rebase --autostash ...'
-          add: 'cre/versions/versions_2016.txt'
+          add: 'cre/versions/versions_2016.txt cre/versions/requirements_2016.txt'
           tag_push: '--force'

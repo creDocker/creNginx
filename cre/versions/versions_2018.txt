@@ -4,6 +4,8 @@ creBuild 	 2025.05
   OpenSSL 1.1.1  11 Sep 2018
   Java 	 openjdk version "1.8.0_362"
   Python3 	 Python 3.6.9
+   numpy 	 1.19.5
+   pandas 	 1.1.5
    Flask 	 Flask 2.0.3
  creNginx 	 1.18.0 (Ubuntu)
   GoAccess - 1.2.

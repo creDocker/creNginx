@@ -7,7 +7,7 @@ creBuild 	 2025.07
   Python3 	 Python 3.12.3
    numpy 	 1.26.4
    scipy 	 1.11.4
-   pandas 	 2.3.0
+   pandas 	 2.3.1
    Flask 	 
  creNginx 	 1.24.0 (Ubuntu)
   GoAccess - 1.8.1.

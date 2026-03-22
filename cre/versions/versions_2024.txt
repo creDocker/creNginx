@@ -6,7 +6,6 @@ creBuild 	 2026.03
   Java 	 openjdk version "21.0.10" 2026-01-20
   Python3 	 Python 3.12.3
    numpy 	 1.26.4
-   scipy 	 1.11.4
    pandas 	 3.0.1
    Flask 	 
  creNginx 	 1.24.0 (Ubuntu)

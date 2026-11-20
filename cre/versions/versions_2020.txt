@@ -2,7 +2,7 @@ creBuild 	 2026.11
  creUbuntu 	 20.04.6 LTS
   UbuntuName 	 focal
   OpenSSL 1.1.1f  31 Mar 2020
-  Java 	 openjdk version "11.0.27" 2025-04-15
+  Java 	 openjdk version "11.0.33.1" 2026-11-17
   Python3 	 Python 3.8.10
    numpy 	 1.19.0
    pandas 	 1.2.0

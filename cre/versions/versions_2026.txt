@@ -3,7 +3,7 @@ creBuild 	 2026.11
   UbuntuName 	 resolute
   OpenSSL 3.5.5 27 Jan 2026 (Library: OpenSSL 3.5.5 27 Jan 2026)
   msmtp version 1.8.32
-  Java 	 openjdk version "21.0.13.0.3" 2026-10-24
+  Java 	 openjdk version "21.0.13.1" 2026-11-17
   Python3 	 Python 3.14.4
    uv 	 
    uv2 	 
